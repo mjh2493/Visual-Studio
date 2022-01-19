@@ -4,13 +4,15 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">My Favorite Music Video</h1>
-    <button onclick="openVideo()" class="btn-dark">OPEN VIDEO</button>
-    <div class="video" id="myVideo">
-        <<iframe width="420" height="315"
-        src="https://www.youtube.com/embed/C01nBm6vV5c">
-        </iframe>
-        <button type="button" class="btn-dark" onclick="closeVideo()">CLOSE VIDEO</button>
-    </div>
+
+
+<button onclick="moveRight()">Click to move Title</button>
+<h1 id="theMove">My Favorite Music Video</h1>
+
+<button onclick="openVideo()" class="btn-dark">OPEN VIDEO</button>
+<div class="video" id="myVideo">
+    <<iframe width="420" height="315"
+             src="https://www.youtube.com/embed/C01nBm6vV5c">
+    </iframe>
+    <button type="button" class="btn-dark" onclick="closeVideo()">CLOSE VIDEO</button>
 </div>

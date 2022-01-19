@@ -10,3 +10,12 @@ function openVideo() {
 function closeVideo() {
     document.getElementById("myVideo").style.display = "none";
 }
+
+
+var title = null;
+function moveRight() {
+    title = document.getElementById('theMove');
+    title.style.position = 'relative';
+    title.style.left = '0px';
+    title.style.left = parseInt(title.style.left) + 250 + 'px';
+}
